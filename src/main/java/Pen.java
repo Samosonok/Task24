@@ -2,10 +2,6 @@ public class Pen extends WritingTools {
 
     private static final double PEN_CONSUMPTION_PER_CHAR = 1.15;
 
-    public Pen(String name) {
-        super(name);
-    }
-
     @Override
     public void write(StringBuilder builder, char[] chars) {
         for (char c : chars) {

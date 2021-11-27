@@ -5,10 +5,6 @@ public class Marker extends WritingTools {
     private static final double MARKER_CONSUMPTION_PER_CHAR_41 = 1.21;
     private int writtenCharsCounterForMarker;
 
-    public Marker(String name) {
-        super(name);
-    }
-
     @Override
     public void write(StringBuilder builder, char[] chars) {
         for (char m : chars) {

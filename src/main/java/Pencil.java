@@ -3,10 +3,6 @@ public class Pencil extends WritingTools {
     private static final double PENCIL_CONSUMPTION_PER_CHAR = 0.95;
     private int writtenCharsCounterForPencil;
 
-    public Pencil(String name) {
-        super(name);
-    }
-
     @Override
     public void write(StringBuilder builder, char[] chars) {
         for (char s : chars) {
